@@ -4,3 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+
+:root {
+  --tea-green: #CFE0C3;
+  --cambridge: #9EC1A3;
+  --verdigris: #70A9A1;
+  --cerulean: #40798C;
+  --gunmetal: #1F363D;
+}
