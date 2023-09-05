@@ -4,10 +4,12 @@ function Header() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div>
-        
+    <div className="banner-image">
+      <h1>Finn</h1>
     </div>
   );
 }
 
 export default Header;
+
+// Needs to be linked
