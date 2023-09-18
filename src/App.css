@@ -1,9 +1,9 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 
 :root {
   --tea-green: #CFE0C3;
@@ -11,4 +11,14 @@
   --verdigris: #70A9A1;
   --cerulean: #40798C;
   --gunmetal: #1F363D;
+}
+
+/*.background {
+  background-image: url('../images/image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
+
+.banner-image {
+  background-color: var(--verdigris);
 }
