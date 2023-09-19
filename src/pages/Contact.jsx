@@ -35,7 +35,7 @@ export default function Contact() {
 
   return (
     <div>
-      <h1>Name</h1>
+      <h1 className="title">Name</h1>
       <input
         className="input is-primary"
         type="text"
@@ -44,7 +44,7 @@ export default function Contact() {
         value={formData.name}
         onChange={handleInputChange}
       />
-      <h1>Email</h1>
+      <h1 className="title">Email</h1>
       <input
         className="input is-primary"
         type="text"
@@ -53,9 +53,9 @@ export default function Contact() {
         value={formData.email}
         onChange={handleInputChange}
       />
-      <h1>Message</h1>
+      <h1 className="title">Message</h1>
       <input
-        className="input is-primary"
+        className="textarea is-primary"
         type="text"
         placeholder="Message"
         name="message"

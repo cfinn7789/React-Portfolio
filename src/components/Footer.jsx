@@ -4,10 +4,7 @@ function Footer() {
   const currentPage = useLocation().pathname;
 
   return (
-    <footer className="footer">
-      <div className="contact">
-        <h3>Contact Me</h3>
-      </div>
+    <footer className="foot">
         <ul className="contact-info">
             <li><a href="tel:+689-247-7666">689-247-7666</a></li>
             <li><a href="cfinn7789@gmail.com">cfinn7789@gmail.com</a></li>
@@ -18,5 +15,3 @@ function Footer() {
 }
 
 export default Footer;
-
-// Needs to be linked

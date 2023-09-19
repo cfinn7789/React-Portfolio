@@ -13,12 +13,75 @@
   --gunmetal: #1F363D;
 }
 
-/*.background {
+/* .homepage {
   background-image: url('../images/image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-}*/
+} */
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height:100%;
+  position:relative; 
+  background-color: var(--tea-green);
+}
 
 .banner-image {
+  display: flex;
+  justify-content: space-between;
   background-color: var(--verdigris);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  color: var(--gunmetal);
+  padding: 10px;
+}
+
+.links {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.link {
+  display: inline;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+a {
+  cursor: pointer;
+  color: var(--gunmetal);
+}
+
+.home-bio {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.foot {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  background-color: var(--cambridge);
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-size: 20px;
 }

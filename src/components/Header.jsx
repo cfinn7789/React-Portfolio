@@ -6,12 +6,10 @@ function Header() {
 
   return (
     <div className="banner-image">
-      <h1>Finn</h1>
+      <a className="navbar-brand">Finn</a>
         <Navigation />
     </div>
   );
 }
 
 export default Header;
-
-// Needs to be linked
