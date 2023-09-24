@@ -34,7 +34,8 @@ export default function Contact() {
   };
 
   return (
-    <div>
+  <div className="contact">
+    <div className="contact-form">
       <h1 className="title">Name</h1>
       <input
         className="input is-primary"
@@ -55,7 +56,7 @@ export default function Contact() {
       />
       <h1 className="title">Message</h1>
       <input
-        className="textarea is-primary"
+        className="input is-primary"
         type="text"
         placeholder="Message"
         name="message"
@@ -68,5 +69,15 @@ export default function Contact() {
 
       {formSubmitted && <p className="success-message">Form submitted successfully!</p>}
     </div>
+
+    <div className="contact-info is-align-content-center">
+      <h1 className="title">Contact Me</h1>
+
+        <a href="tel:+689-247-7666">689-247-7666</a>
+        <a href="cfinn7789@gmail.com">cfinn7789@gmail.com</a>
+        <a href="https://github.com/cfinn7789">My Github</a>
+
+    </div>
+  </div>
   );
 }
