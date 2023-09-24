@@ -93,15 +93,21 @@ li {
 
 .contact {
   display: flex;
-  width: 800px;
+  width: auto;
   background-color: var(--cambridge);
-  margin: 50px;
+  margin: 50px 300px 75px 300px;
+  padding: 20px;
 }
 
 .contact-form {
-  margin-left: 20px;
+  padding: 20px;
 }
 
-main {
-  justify-content: center;
+.contact-info {
+  margin-left: 70px;
+  align-items: center;
+}
+
+.my-contact {
+
 }

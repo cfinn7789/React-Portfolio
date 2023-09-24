@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       <div className="background">
-      <main className="mx-3">
+      <main className="main">
         <Outlet />
       </main>
       </div>

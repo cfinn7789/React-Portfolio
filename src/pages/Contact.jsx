@@ -70,12 +70,13 @@ export default function Contact() {
       {formSubmitted && <p className="success-message">Form submitted successfully!</p>}
     </div>
 
-    <div className="contact-info is-align-content-center">
+    <div className="contact-info">
       <h1 className="title">Contact Me</h1>
-
-        <a href="tel:+689-247-7666">689-247-7666</a>
-        <a href="cfinn7789@gmail.com">cfinn7789@gmail.com</a>
-        <a href="https://github.com/cfinn7789">My Github</a>
+        <div className="my-contact">
+          <a href="tel:+689-247-7666">689-247-7666</a>
+          <a href="cfinn7789@gmail.com">cfinn7789@gmail.com</a>
+          <a href="https://github.com/cfinn7789">My Github</a>
+        </div>
 
     </div>
   </div>
